@@ -16,7 +16,8 @@ RUN apk add --no-cache python3 python3-dev curl gcc g++ libxml2-dev libxslt-dev 
     rm -r /root/.cache
 
 #Install ansible,  ansible-galaxy needs ansible version 2.9 
-RUN pip3 install ansible==2.9.10 netapp-lib requests &&\
+RUN apk add py3-cryptography && \
+  pip3 install ansible==2.9.10 netapp-lib requests && \
   ansible-galaxy collection install netapp.ontap
 
 USER jenkins
