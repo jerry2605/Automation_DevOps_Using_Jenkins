@@ -6,7 +6,7 @@ RUN apk add --update docker openrc && \
     rc-update add docker boot
 
 #install python3
-RUN apk add --no-cache python3 python3-dev curl gcc g++ libxml2-dev libxslt-dev && \
+RUN apk add --no-cache python3 python3-dev curl gcc g++ libxml2-dev libxslt-dev libffi-dev && \
     ln -s /usr/include/locale.h /usr/include/xlocale.h && \
     python3 -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip && \
