@@ -89,5 +89,5 @@
       state:                 present
       share_name:            "jenkins"
       vserver:               "{{ PRI_SVM }}"
-      path:                  "/{{ PRI_SVM }}_cifs_01/cifs_01/"
+      path:                  "/{{ PRI_SVM }}_cifs_01/"
       <<: *input
