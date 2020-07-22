@@ -83,7 +83,6 @@
       volume_security_style: ntfs
       <<: *input
 
-  tasks:
   - name: Create CIFS share on primary SVM
     na_ontap_cifs:
       state:                 present
