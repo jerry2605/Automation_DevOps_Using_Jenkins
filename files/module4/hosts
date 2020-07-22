@@ -1,7 +1,7 @@
 [ontap]
 cluster1
 
-[docker]
+[dockers]
 rhel5
 rhel6
 
