@@ -24,8 +24,7 @@ import argparse
 #CN bing link, can access anywhere and only one(two ?) backgroup each day.
 bingLink = 'https://cn.bing.com/?mkt=zh-CN'
 
-#Path = '/Users/haopeng/Documents/BingBest/'
-Path = '/images'
+Path = 'images'
 
 resolutionRatio = '1920x1080'
 
