@@ -13,7 +13,7 @@ pipeline {
             steps{
                 echo '***** copy to windows cifs sahre *****'
                 script {
-                    cifsPublisher(publishers: [[configName: 'bingimage', 
+                    cifsPublisher(publishers: [[configName: 'jenkins', 
                                 transfers: [[removePrefix: 'images/', sourceFiles: 'images/*.*']]
                                 ]])
                 sh 'rm /var/jenkins_home/workspace/$JOB_NAME/images/* -rf'
