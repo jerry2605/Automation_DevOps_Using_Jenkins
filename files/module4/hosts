@@ -15,6 +15,4 @@ rhel6
 rhel4
 
 [kubernetes]
-rhel1
-rhel2
 rhel3
