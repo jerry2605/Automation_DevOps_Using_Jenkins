@@ -6,6 +6,14 @@
 :imagesdir: ./media/
 :keywords: DevOps, Jenkins, Automation, CI, CD
 
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
 == Task 1, Run *kubectl* from Jenkins on Remote Kubernetes Master
 We are going to run kubernetes command *kubectl* on remote kubernetes master *rhel3*.
 

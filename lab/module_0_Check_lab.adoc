@@ -5,6 +5,7 @@
 :linkattrs:
 :imagesdir: ./media/
 :keywords: DevOps, Jenkins, Automation, CI, CD
+
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
