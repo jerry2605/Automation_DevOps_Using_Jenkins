@@ -27,10 +27,10 @@ requirements::
 
 3. Check below links as reference
 +
-https://github.com/jerry2605/Automation_DevOps_Using_Ansible/blob/master/files/module3/Dockerfile[Dockerfile]
+https://raw.githubusercontent.com/jerry2605/Automation_DevOps_Using_Jenkins/master/files/module3/Dockerfile[Dockerfile]
 +
 ----
-wget https://raw.githubusercontent.com/jerry2605/Automation_DevOps_Using_Ansible/master/files/module3/Dockerfile
+wget https://raw.githubusercontent.com/jerry2605/Automation_DevOps_Using_Jenkins/master/files/module3/Dockerfile
 ----
 4. Build the Customized Jenkins image and set the tag as *registry.demo.netapp.com/jenkins*
 +
