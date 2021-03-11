@@ -142,7 +142,7 @@ NOTE: You can create a new docker image which include this command.
 
 7. Install *openshift* on kubernetes master, *rhel3*
 +
-ansible kubernetes modules need talsk to openshift API on kubernetes master
+ansible kubernetes modules need talk to openshift API on kubernetes master
 +
 Use ssh to log in *rhel3*
 +
@@ -179,7 +179,7 @@ rm /usr/bin/python -f
 ln -s /usr/bin/python3.6 /usr/bin/python
 
 # Install openshift
-pip3 insall openshift
+pip3 install openshift
 ----
 
 8. Go back to Jenkins, *Build Now* and check the *Console Output*
