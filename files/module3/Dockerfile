@@ -10,10 +10,11 @@ RUN apk add --no-cache python3 python3-dev curl gcc g++ libxml2-dev libxslt-dev 
     ln -s /usr/include/locale.h /usr/include/xlocale.h && \
     python3 -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip && \
-    pip3 install --upgrade pip setuptools bs4 wget lxml && \
+    pip3 install --upgrade pip setuptools bs4 wget && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi && \
     if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi && \
-    rm -r /root/.cache
+    rm -r /root/.cache && \
+    apk add --no-cache py-lxml
 
 #Install ansible,  ansible-galaxy needs ansible version 2.9 
 RUN apk add py3-cryptography && \
